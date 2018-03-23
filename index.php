@@ -9,7 +9,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<div class = "contentContainer">
 			
 			<div class = "titleTop">
-				<h4>IT For the Future of Healthcare: the Scalable Open Platform</h4>
+				<h2>IT For the Future of Healthcare: the Scalable Open Platform</h2>
 				<img src = "title_img.jpg" class = "titleTopImage" />
 				<p>In order to create IT solutions that <em>radically improve a complex work environment</em> such as a modern hospital or a city health network, we need a new paradigm.</p>
 				<p>Instead of building software that captures today's data and usage scenarios, then goes out of date, we need a <em>domain-expert modelling factory</em> that continuously delivers models of domain information, processes and user experience, for constant deployment in a <em>platform ecosystem</em>.</p>
