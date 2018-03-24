@@ -11,7 +11,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 			<h1><?php echo "$PageName";?></h1>
-						
+			<p>In order to create IT solutions that <em>radically improve a complex work environment</em> such as a modern hospital or a city health network, we need a new paradigm. Instead of building software that captures today's data and usage scenarios, then goes out of date, we need systems that are <em>continuously adaptive</em> with respect to semantics, but stable with respect to technology.</p>
+
 			<div class = "section">
 				<h2><a name="ehealth_challenge"></a>The Challenge of e-Health for IT</h2>
 				<p>Developing effective and economic IT solutions for e-health has proven very difficult over some decades, although the general needs are easy to grasp:</p>
@@ -39,30 +40,57 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
                 
                 <p>In summary, the two problems that must be overcome to make IT successful in healthcare are: <em>semantic complexity</em> of the problem space and
                 <em>logistic complexity</em> of the work environment.</p>
+			</div>
 
+			<div class = "section">
 				<h2><a name="health_platform"></a>The open Platform as a Paradigm</h2>
+				<p>Existing major products in healthcare are monolithic private data siloes, blocking users from working effectively. The future is solution components produced by an eco-system of plug-and-play vendors. By freeing data to move across enterprises, we free the business.</p>
+				<img class = "mainImage" src="images/home_page_platform.svg">
+
 				<p>An open health computing platform, based on open, integrated specifications for <em>incrementally deployable components</em> is the key to getting value from IT in healthcare.</p>
-                
-                <p>Naive conceptions of 'platform' must be avoided:</p>
-                <ul>
-                    <li>a platform isn’t the same thing as a list of standards;</li>
-                    <li>a platform is not just a set of APIs - it also requires information models, models of domain content and process and solid underlying formalisms;</li>
-                    <li>a platform is a process, not a product;</li>
-                    <li>a platform cannot be designed by a committee;</li>
-                    <li>a platform must be efficient for developers to use.</li>
-                </ul>
+				
+				<p>Naive conceptions of 'platform' must be avoided:</p>
+				<ul>
+					<li>a platform isn’t the same thing as a list of standards;</li>
+					<li>a platform is not just a set of APIs - it also requires information models, models of domain content and process and solid underlying formalisms;</li>
+					<li>a platform is a process, not a product;</li>
+					<li>a platform cannot be designed by a committee;</li>
+					<li>a platform must be efficient for developers to use.</li>
+				</ul>
 
                 <p>The keys to moving to a platform in e-health are as follows:</p>
                 <ul>
-                    <li>formalisms and knowledge models of the <em>problem space</em>;</li>
-                    <li>information and process models for the <em>deployment context</em>;</li>
-                    <li>a <em>map of the components</em> of the platform, since these are the unit of specification.</li>
+                    <li><em>model everything</em>: formalisms and knowledge models of the problem space; information and process models for the work context;</li>
+                    <li>a <em>map of the components</em> of the platform, since these are the unit of specification;</li>
                 </ul>
                 
-                <p>A well-designed platform must be specified and maintained by the industry it serves. If it does this well, the result will be a <em>platform economy</em>, consisting of plug-and-play vendors competing on quality rather than lock-in.</p>
+                <p>A well-designed platform must be specified and maintained by the industry it serves. If it does this well, the result will be a <em>platform economy of plug-and-play vendors</em> competing on quality rather than lock-in.</p>
 
 			</div>
 						
+			<div class = "section">
+				<h2><a name="process_orientation"></a>Process Orientation</h2>
+				<img class = "mainImage" src="images/home_page_process.svg">
+				<p>Work is done in terms of <em>goal-oriented processes</em>, which respond to an endless stream of real-world events, from customer requests to changes in a patient's heart rate. To make IT support processes in health, we need to formalise two things:</p>
+                <ul>
+                    <li>models of ideal process - known as Care Pathways and Guidelines in healthcare;</li>
+                    <li>models of patient-specific Work Plans - based on Care Pathways where possible.</li>
+                </ul>
+				<p>We thus model processes, tasks, plans and data-sets as first-order domain artefacts for deployment in a <em>task planning engine</em> that <em>supports</em> human workflow.</p>
+
+			</div>
+
+			<div class = "section">
+				<h2>Semantic Architecture</h2>
+				<img class = "mainImage" src="images/home_page_semarch.svg">
+				<p>Achieving this requires a new kind of software architecture split into two parts: 
+                <ul>
+                    <li><em>domain-level formal languages and tools</em> in which information and work processes can be flexibly modelled;</li>
+                    <li>a factory of domain-level modelling performed by domain professionals, not IT people;</li>
+                    <li>an <em>advanced model-execution engine</em>. These are underpinned by terminology and ontology.</li>
+                </ul>
+			</div>
+			
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>
 			

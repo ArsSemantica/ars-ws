@@ -69,6 +69,7 @@ ul {
 
 	list-style: disc;
 	list-style-position: outside;
+	display: table;
 }
 
 ul ul{
@@ -77,6 +78,7 @@ ul ul{
 
 	list-style: circle;
 	list-style-position: outside;
+	display: table;
 }
 
 /* Main layout */
@@ -166,6 +168,32 @@ body{
 	margin-left: auto;
 } 
 
+/* image container to hold splash image plus text */
+.imageContainer {
+	position: relative;
+	text-align: center;
+} 
+
+.top-left {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.top-center {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-right {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+
+/* Content */
 #Content {
     width: 100%;
 	min-width: 350px;
@@ -179,8 +207,8 @@ body{
 }
 
 .titleTopImage {
-	height: 200px; 
-	float: left; 
+	width: 100%; 
+	float: center; 
 	margin: 5px 30px 10px 0;
 }
 
@@ -191,6 +219,12 @@ body{
 .titleImage {
 	height:200px; 
 	margin: 0 0 20px;
+}
+
+.mainImage {
+	height:200px; 
+	margin: 0 20px 20px;
+	float: right;
 }
 
 .footerContainer {
@@ -370,6 +404,10 @@ body{
 		padding: 160px 0 50px 0;
 	}
 	
+	.fullFrame {
+		width:95%;
+	}
+	
 	.homeFrame {
 		width:100%;
 	}
@@ -434,6 +472,10 @@ body{
 	
 	.homeFrame {
 		width:30%;
+	}
+	
+	.fullFrame {
+		width:95%;
 	}
 	
 	.footerContainer {

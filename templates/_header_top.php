@@ -71,7 +71,7 @@
 			<div class = "headerPanel">
 
 				<div id = "Logo" class = "logo">
-					<a href="/index"><img src = "/logo.png" alt = "Logo"/></a>
+					<a href="/"><img src = "/logo.png" alt = "Logo"/></a>
 				</div>
 	
 				<div id="Menu" class = "menu">
