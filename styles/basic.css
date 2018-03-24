@@ -31,6 +31,11 @@ strong {color: #023760; font-weight: 600;}
 
 p {text-align:justify; margin-bottom:0.8em;}
 
+.title {
+	font: 20px/20px Verdana, Geneva, sans-serif;
+	color: #1d275d;
+}
+
 h1 {
 	margin: 20px 0 10px;
 	font: 30px/30px Verdana, Geneva, sans-serif;
@@ -176,20 +181,39 @@ body{
 
 .top-left {
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 5%;
 }
 
 .top-center {
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .top-right {
     position: absolute;
-    top: 25%;
+    top: 15%;
+    right: 5%;
+}
+
+.mid-left {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.mid-center {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid-right {
+    position: absolute;
+    top: 45%;
     right: 5%;
 }
 

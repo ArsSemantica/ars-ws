@@ -11,7 +11,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 			<h1><?php echo "$PageName";?></h1>
-			<p>In order to create IT solutions that <em>radically improve a complex work environment</em> such as a modern hospital or a city health network, we need a new paradigm. Instead of building software that captures today's data and usage scenarios, then goes out of date, we need systems that are <em>continuously adaptive</em> with respect to semantics, but stable with respect to technology.</p>
 
 			<div class = "section">
 				<h2><a name="ehealth_challenge"></a>The Challenge of e-Health for IT</h2>
@@ -43,7 +42,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 
 			<div class = "section">
-				<h2><a name="health_platform"></a>The open Platform as a Paradigm</h2>
+				<h2><a name="platform_paradigm"></a>The open Platform as a Paradigm</h2>
 				<p>Existing major products in healthcare are monolithic private data siloes, blocking users from working effectively. The future is solution components produced by an eco-system of plug-and-play vendors. By freeing data to move across enterprises, we free the business.</p>
 				<img class = "mainImage" src="images/home_page_platform.svg">
 
