@@ -27,12 +27,13 @@ strong {color: #023760; font-weight: 600;}
 
 .imgLeft {float: left; margin: 0 30px 20px 0;}
 .imgRight {float: right; margin: 0 0 20px 30px;}
-.imgMiddle {	display: block; margin: 0 auto 20px;}
+.imgMiddle {display: block; margin: 0 auto 20px;}
 
 p {text-align:justify; margin-bottom:0.8em;}
 
 .title {
-	font: 20px/20px Verdana, Geneva, sans-serif;
+	text-align:left;
+	font: 30px/30px Verdana, Geneva, sans-serif;
 	color: #1d275d;
 }
 
@@ -87,7 +88,7 @@ ul ul{
 }
 
 /* Main layout */
-body{
+body {
 	background: #252f52;
 	font: 14px/1.42857 Verdana, Geneva, sans-serif;
 }
@@ -181,40 +182,29 @@ body{
 
 .top-left {
     position: absolute;
-    top: 15%;
-    left: 5%;
-}
-
-.top-center {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 5%;
+    left: 10%;
 }
 
 .top-right {
     position: absolute;
-    top: 15%;
-    right: 5%;
-}
-
-.mid-left {
-    position: absolute;
-    top: 45%;
-    left: 5%;
-}
-
-.mid-center {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 5%;
+    right: 15%;
+    transform: translate(-50%,-50%);
 }
 
 .mid-right {
     position: absolute;
-    top: 45%;
-    right: 5%;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%,-50%);
+}
+
+.bottom-right {
+    position: absolute;
+    top: 95%;
+    right: 15%;
+    transform: translate(-50%,-50%);
 }
 
 /* Content */
@@ -227,11 +217,11 @@ body{
 }
 
 .titleTop {
-	margin: 10px 0 50px 0;
+	margin: 0 0 50px 0;
 }
 
 .titleTopImage {
-	width: 100%; 
+	width: 80%; 
 	float: center; 
 	margin: 5px 30px 10px 0;
 }
@@ -318,7 +308,7 @@ body{
 	.contentContainer {
 		min-width: 350px;
 		max-width: 650px;
-		padding: 200px 15px 70px 15px;
+		padding: 150px 15px 70px 15px;
 	}
 	
 	.titleImage {
