@@ -34,7 +34,7 @@ p {text-align:justify; margin-bottom:0.8em;}
 .title {
 	font: 28px/28px Verdana, Geneva, sans-serif;
 	color: #1d275d;
-	width: 52%;
+	width: 56%;
 	text-align:left;
 }
 
@@ -183,8 +183,8 @@ body {
 
 .top-left {
     position: absolute;
-    top: 3%;
-    left: 10%;
+    top: 1%;
+    left: 9%;
 }
 
 .top-right {
