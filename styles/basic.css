@@ -32,9 +32,10 @@ strong {color: #023760; font-weight: 600;}
 p {text-align:justify; margin-bottom:0.8em;}
 
 .title {
-	text-align:left;
-	font: 30px/30px Verdana, Geneva, sans-serif;
+	font: 28px/28px Verdana, Geneva, sans-serif;
 	color: #1d275d;
+	width: 52%;
+	text-align:left;
 }
 
 h1 {
@@ -182,7 +183,7 @@ body {
 
 .top-left {
     position: absolute;
-    top: 5%;
+    top: 3%;
     left: 10%;
 }
 

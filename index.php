@@ -10,7 +10,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			
 			<div class = "titleTop imageContainer">
 				<img src = "title_img.jpg" class = "titleTopImage" />
+				<div class="top-left"><p class = "title">In order to create IT solutions that <em>radically improve</em> a complex work environment, we need an approach that is <em>adaptive</em> with respect to domain semantics, but <em>stable</em> with respect to technology.</p></div>
+	<!--
 				<div class="top-left"><p class = "title">In order to create IT solutions that<br><em>radically improve</em> a complex work <br>environment, we need an approach<br>that is <em>adaptive</em> with respect to <br>domain semantics, but <em>stable</em> with<br>respect to technology.</p></div>
+	-->
 			
 				<div class="top-right"><a href="/introduction#ehealth_challenge"><h2>e-Health<br>Strategy</h2></a></div>
 				<div class="mid-right"><a href="/introduction#platform_paradigm"><h2>Platform<br>Paradigm</h2></a></div>
