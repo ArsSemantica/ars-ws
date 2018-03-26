@@ -11,6 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 			<h1><?php echo "$PageName";?></h1>
+			<img src="https://wolandscat.files.wordpress.com/2016/02/platform_pontoon.png">
 
 			<div class = "section">
 				<h2><a name="ehealth_challenge"></a>The Challenge of e-Health for IT</h2>
@@ -65,31 +66,91 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
                 
                 <p>A well-designed platform must be specified and maintained by the industry it serves. If it does this well, the result will be a <em>platform economy of plug-and-play vendors</em> competing on quality rather than lock-in.</p>
 
+				<p>More on the platform paradigm:</p>
+				<ul>
+					<li>Blog post: <a href="https://wolandscat.net/2017/11/18/the-open-e-health-platform-coming-to-an-economy-near-you/" target="_blank">Apperta Foundation - defining an open platform.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2015/10/21/new-openehr-whitepaper-for-an-open-platform-future/" target="_blank">New openEHR Whitepaper – for an open platform future.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2014/10/02/health-interoperability-standards-are-a-pre-platform-concept-discuss/" target="_blank">Health interoperability standards are a pre-platform concept.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2014/05/07/what-is-an-open-platform/" target="_blank">What is an 'open platform'?</a></li>
+				</ul>
+
 			</div>
 						
 			<div class = "section">
-				<h2><a name="process_orientation"></a>Process Orientation</h2>
-				<img class = "mainImage" src="images/home_page_process.svg">
-				<p>Work is done in terms of <em>goal-oriented processes</em>, which respond to an endless stream of real-world events, from customer requests to changes in a patient's heart rate. To make IT support processes in health, we need to formalise two things:</p>
+				<h2>Semantic Architecture</h2>
+				<img class = "mainImage" src="images/home_page_semarch.svg">
+				<p>An open platform defines coarse-grained components whose semantics need to be defined in such a way that:</p>
                 <ul>
-                    <li>models of ideal process - known as Care Pathways and Guidelines in healthcare;</li>
-                    <li>models of patient-specific Work Plans - based on Care Pathways where possible.</li>
+                    <li>fully model domain concepts as well as work environment processes;</li>
+                    <li>separate domain modelling from IT development, and make domain models runtime-deployable;</li>
+                    <li>ensure domain models are defined independently of technology, including OS, DB, message and document formats.</li>
                 </ul>
-				<p>We thus model processes, tasks, plans and data-sets as first-order domain artefacts for deployment in a <em>task planning engine</em> that <em>supports</em> human workflow.</p>
 
+				<p>Achieving these outcomes requires an advanced approach to modelling:</p>
+                <ul>
+                    <li><em>domain-level formal languages and tools</em> in which information and work processes can be flexibly modelled;</li>
+                    <li>a repository+factory approach to managing domain modelling by domain professionals;</li>
+                    <li>multi-level modelling, with distinct layers for persistable data, domain data groups, domain data-sets, domain process plans, UI/UX precursors;</li>
+                    <li>each platform component should be architected as a <em>model-execution engine</em>.</li>
+                </ul>
+			
+				<p>More on semantic architecture:</p>
+				<ul>
+					<li>Blog post: <a href="https://wolandscat.net/2015/11/29/why-it-people-cant-build-information-systems/" target="_blank">Why IT people can't build information systems (on their own).</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2016/04/10/openehr-technical-basics-for-hl7-and-fhir-users/" target="_blank">openEHR technical basics for HL7 and FHIR users.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2014/12/15/semantic-scalability-the-core-challenge-in-e-health/" target="_blank">Semantic scalability – the core challenge in e-health?</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2014/03/11/why-clinical-models-are-essential-to-big-data/" target="_blank">Why clinical models are essential to big data.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2013/07/30/what-is-a-clinical-statement/" target="_blank">What is a 'clinical statement'?</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2012/06/28/openehr-archetypes-visualised/" target="_blank">The power of the openEHR archetype formalism – visualised.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2011/07/07/information-models-dcms-and-archetypes/" target="_blank">Information models, DCMs and Archetypes.</a></li>
+				</ul>
 			</div>
 
 			<div class = "section">
-				<h2>Semantic Architecture</h2>
-				<img class = "mainImage" src="images/home_page_semarch.svg">
-				<p>Achieving this requires a new kind of software architecture split into two parts: 
+				<h2><a name="process_orientation"></a>Process Orientation</h2>
+				<img class = "mainImage" src="images/home_page_process.svg">
+				<p>In healthcare working environments, work is done in terms of <em>goal-oriented processes</em>, designed to respond to an endless stream of real-world events, from customer requests to changes in a patient's heart rate. To make IT support processes in health, we need to formalise two things:</p>
                 <ul>
-                    <li><em>domain-level formal languages and tools</em> in which information and work processes can be flexibly modelled;</li>
-                    <li>a factory of domain-level modelling performed by domain professionals, not IT people;</li>
-                    <li>an <em>advanced model-execution engine</em>. These are underpinned by terminology and ontology.</li>
+                    <li>models of ideal process - known as Care Pathways and Guidelines in healthcare;</li>
+                    <li>models of patient-specific Work Plans - based on Care Pathways where available.</li>
                 </ul>
+				<p>This requires modelling of <em>plans</em> of processes, tasks, and data-sets as first-order domain artefacts for deployment in an <em>plan execution engine</em> that <em>supports</em> human workflow rather than trying to replace it. Process models require a formalism, which is a significant challenge in healthcare not satisfiable by deterministic approaches such as BPMN. The <a href="https://www.openehr.org/releases/PROC/latest/task_planning.html" target="_blank">openEHR Task Planning formalism</a>, based on advanced industry work such as <a href="https://www.amazon.co.uk/Modern-Business-Process-Automation-Environment/dp/364203120X" target="_blank">YAWL</a> as well as our long-term involvement in the Activity-Based Design (ABD) project at Intermountain Healthcare provides an alternative.</p>
+
+				<p>More on the process orientation:</p>
+				<ul>
+					<li>Blog post: <a href="https://wolandscat.net/2017/10/22/openehr-task-planning-heading-for-implementatoin/" target="_blank">openEHR Task Planning – heading for implementation.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2017/01/23/initial-foundations-for-clinical-workflow/" target="_blank">Initial foundations for clinical workflow.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2016/11/29/future-of-the-ehr-adaptive-clinical-workflow-support/" target="_blank">Future of the EHR: adaptive clinical workflow support.</a></li>
+				</ul>
 			</div>
-			
+
+			<div class = "section">
+				<h2><a name="taming_standards"></a>Taming e-Health Standards</h2>
+				<img class = "mainImage" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Gartner_Hype_Cycle.svg">
+				<p>Standards in e-Health have had a chequered history, with extremely limited success beyond HL7v2 messages historically (and still) used for lab results and prescriptions. Twenty years involvement has led us to certain conclusions:</p>
+				<ul>
+					<li>ad hoc collections of standards do not work together - significant costs are involved, and integration may not be achievable;</li>
+					<li>standards designed by committees are of poor quality and should be avoided;</li>
+					<li>the only way to create standards that work together is to design them together, as a platform;</li>
+					<li>avoid standards that are not published with formal expressions and an open source implementation.</li>
+				</ul>
+
+				<p>More on standards in e-Health:</p>
+				<ul>
+					<li>Blog post: <a href="https://wolandscat.net/2017/01/29/fhir-compared-to-openehr/" target="_blank">FHIR compared to openEHR.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2016/04/05/e-health-standards-beyond-messages/" target="_blank">e-Health standards – beyond the message mentality.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2015/12/20/making-fhir-work-for-everybody/" target="_blank">Making FHIR work for everybody.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2015/09/25/yet-another-e-health-standards-comparison-corrected/" target="_blank">Yet another e-health standards comparison, corrected.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2014/10/30/does-anyone-actually-understand-what-terminology-is-for/" target="_blank">Does anyone actually understand what terminology is for?</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2014/10/25/what-is-a-standard-legislation-or-utilisation/" target="_blank">What is a ‘standard’: legislation or utilisation?</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2014/08/19/beyond-the-hype-evaluating-e-health-standards/" target="_blank">Beyond the hype: evaluating e-health standards.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2014/08/12/onc-hearing-on-the-jason-report/" target="_blank">ONC Hearing on the JASON Report – openEHR perspective.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2013/07/06/what-is-a-standard/" target="_blank">What is a standard?.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2010/12/19/design-in-ehealth/" target="_blank">Ruminations on ‘design’ in e-health standards.</a></li>
+					<li>Blog post: <a href="https://wolandscat.net/2009/09/17/the-crisis-in-e-health-standards/" target="_blank">The crisis in e-health standards (4 posts).</a></li>
+				</ul>
+			</div>
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>
 			
