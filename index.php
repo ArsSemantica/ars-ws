@@ -6,14 +6,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 ?>
 	
 	<div id = "Content">
-		<div class = "contentContainer">
+		<div class = "titleContainer">
 			
 			<div class = "titleTop imageContainer">
 				<img src = "title_img.jpg" class = "titleTopImage" />
-				<div class="top-left"><p class = "title">In order to create IT solutions that <em>radically improve</em> a complex work environment such as a modern hospital or a regional health network, we need an approach that is <em>adaptive</em> with respect to domain semantics, but <em>stable</em> with respect to technology.</p></div>
-				<div class="top-right"><a href="/introduction#ehealth_challenge"><h2>e-Health<br>Strategy</h2></a></div>
-				<div class="mid-right"><a href="/introduction#platform_paradigm"><h2>Platform<br>Paradigm</h2></a></div>
-				<div class="bottom-right"><a href="/introduction#taming_standards"><h2>Taming<br>Standards</h2></a></div>
+				<div class="title-text-container"><p class = "title">In order to create IT solutions that <em>radically improve</em> a complex work environment such as a modern hospital or a regional health network, we need an approach that is <em>adaptive</em> with respect to domain semantics, but <em>stable</em> with respect to technology.</p></div>
+				<div class="top-right"><a href="/introduction#ehealth_challenge" class = "title-link">e-Health<br>Strategy</a></div>
+				<div class="mid-right"><a href="/introduction#platform_paradigm" class = "title-link">Platform<br>Paradigm</a></div>
+				<div class="bottom-right"><a href="/introduction#taming_standards" class = "title-link">Taming<br>Standards</a></div>
 				<br class="clear">
 			</div>
 				

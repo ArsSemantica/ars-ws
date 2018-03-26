@@ -10,8 +10,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<div class = "contentContainer">
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
+			<img src="/images/platform_pontoon.png" style = "width: 100%;">
 			<h1><?php echo "$PageName";?></h1>
-			<img src="https://wolandscat.files.wordpress.com/2016/02/platform_pontoon.png">
 
 			<div class = "section">
 				<h2><a name="ehealth_challenge"></a>The Challenge of e-Health for IT</h2>
