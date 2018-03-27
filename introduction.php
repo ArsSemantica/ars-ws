@@ -11,7 +11,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 			<img src="/images/platform_pontoon.png" style = "width: 100%;">
-			<h1><?php echo "$PageName";?></h1>
 
 			<div class = "section">
 				<h2><a name="ehealth_challenge"></a>The Challenge of e-Health for IT</h2>
@@ -19,7 +18,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
                 <ul>
                     <li>semantic interoperability <em>within and across enterprises</em>;</li>
                     <li>semantic interoperability <em>between layers</em> of functionality within a system;</li>
-                    <li>being able to compute intelligently on the data;</li>
+                    <li>being able to <em>compute intelligently</em> on the data;</li>
                     <li>being able to directly support team-based, long-running <em>clinical processes</em>.</li>
                 </ul>
                 
@@ -30,12 +29,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
                 <p>At a practical level, other problems conspire within the health provider context to prevent easy improvements:</p>
                 
                 <ul>
-                    <li><em>Rogue clinical DBs</em>: the main EMR solution rarely supports the data richness actually required by clinicians – it  is  well  known  that  many  hospitals  contain  dozens  if  not  hundreds  of  hidden  specialist’s  databases, often referred to as the 'Access Database problem';</li>
-                    <li><em>Changeover costs</em>: the incoherence of current environments and huge data volumes, coupled with the need for 24x365 availability typically paralyse management for years, until the current system becomes untenable, and a new massively expensive monolithic purchase is made, to restart the cycle of constant failure;</li>
-                    <li><em>No one vendor is big enough</em> to produce all the functionality needed in a healthcare enterprise, and they will never be able to do so, due to the wide variation in business processes across enterprises, jurisdictions, and particularly across countries;</li>
-                    <li><em>Prohibitive integration costs</em> turn seemingly attractive 'best-of-breed' procurements into a financial nightmare;</li>
-                    <li><em>Big bang procure and deploy disasters</em>: no enterprise can afford to logistically deploy a new monolitic solution in one go, so it makes little sense to do the procurement that way;</li>
-                    <li><em>Data lock-in</em>: big vendors do not publish their data models, and make it difficult for data produced by the enterprise to be re-used.</li>
+                    <li><em>rogue clinical DBs</em>: the main EMR solution rarely supports the data richness actually required by clinicians – it  is  well  known  that  many  hospitals  contain  dozens  if  not  hundreds  of  hidden  specialist’s  databases, often referred to as the 'Access Database problem';</li>
+                    <li><em>changeover costs</em>: the incoherence of current environments and huge data volumes, coupled with the need for 24x365 availability typically paralyse management for years, until the current system becomes untenable, and a new massively expensive monolithic purchase is made, to restart the cycle of constant failure;</li>
+                    <li><em>no one vendor is big enough</em> to produce all the functionality needed in a healthcare enterprise, and they will never be able to do so, due to the wide variation in business processes across enterprises, jurisdictions, and particularly across countries;</li>
+                    <li><em>prohibitive integration costs</em> turn seemingly attractive 'best-of-breed' procurements into a financial nightmare;</li>
+                    <li><em>big bang procure and deploy disasters</em>: no enterprise can afford to logistically deploy a new monolitic solution in one go, so it makes little sense to do the procurement that way;</li>
+                    <li><em>data lock-in</em>: big vendors do not publish their data models, and make it difficult for data produced by the enterprise to be re-used.</li>
                 </ul>
                 
                 <p>In summary, the two problems that must be overcome to make IT successful in healthcare are: <em>semantic complexity</em> of the problem space and
@@ -58,10 +57,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<li>a platform must be efficient for developers to use.</li>
 				</ul>
 
-                <p>The keys to moving to a platform in e-health are as follows:</p>
+                <p>An open platform consists of <em>freely published information models, domain semantic models and APIs</em>. The keys to moving to a platform in e-health are as follows:</p>
                 <ul>
-                    <li><em>model everything</em>: formalisms and knowledge models of the problem space; information and process models for the work context;</li>
-                    <li>a <em>map of the components</em> of the platform, since these are the unit of specification;</li>
+                    <li><em>semantic model architecture</em>: formalisms and knowledge models of the problem space; information and process models for the work context;</li>
+                    <li>a <em>map of the components</em> of the platform, since these are the unit of specification.</li>
                 </ul>
                 
                 <p>A well-designed platform must be specified and maintained by the industry it serves. If it does this well, the result will be a <em>platform economy of plug-and-play vendors</em> competing on quality rather than lock-in.</p>
@@ -83,14 +82,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
                 <ul>
                     <li>fully model domain concepts as well as work environment processes;</li>
                     <li>separate domain modelling from IT development, and make domain models runtime-deployable;</li>
-                    <li>ensure domain models are defined independently of technology, including OS, DB, message and document formats.</li>
+                    <li><em>single-source modelling</em>: ensure domain models are defined independently of technology, including OS, DB, message and document formats, but can be machine converted to the required forms.</li>
                 </ul>
 
 				<p>Achieving these outcomes requires an advanced approach to modelling:</p>
                 <ul>
                     <li><em>domain-level formal languages and tools</em> in which information and work processes can be flexibly modelled;</li>
                     <li>a repository+factory approach to managing domain modelling by domain professionals;</li>
-                    <li>multi-level modelling, with distinct layers for persistable data, domain data groups, domain data-sets, domain process plans, UI/UX precursors;</li>
+                    <li><em>multi-level modelling</em>, with distinct layers for persistable data, domain data groups, domain data-sets, domain process plans, UI/UX precursors;</li>
+                    <li>underpinning of semantics with <em>ontologies</em>, including BFO, RO, IAO and others;</li>
                     <li>each platform component should be architected as a <em>model-execution engine</em>.</li>
                 </ul>
 			
@@ -151,6 +151,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				</ul>
 			</div>
 
+			<div class = "section">
+				<p style = "font-size: x-small;">Top image © 2014 <a href="https://imogenbrandrakers.wordpress.com/">Imogen Brand Rakers Photography</a></p>
+			</div>
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>
 			

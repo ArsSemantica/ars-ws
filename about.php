@@ -10,44 +10,35 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<div class = "contentContainer">
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-			<h1><?php echo "$PageName";?></h1>
-			
 			<div class = "section">
 				<h2><a name="thomas_beale"></a>Thomas Beale (principal)</h2>
-			</div>
+				<img class = "mainImage" src="images/tb_campos.jpg">
 			
-			<div class = "section">
 				<h3>Experience</h3>
 				<p>20 years' experience in EHR technology and standards, information modelling, semantic interoperability, e-health strategy and open health computing platforms.</p>
-			</div>
 
-			<div class = "section">
 				<h3>Creator of</h3>
 				<ul>
-					<li>The <a href="https://www.openehr.org/releases/AM/latest/docs/index">Archetype Definition Language (ADL)</a>, now an ISO standard.</li>
-					<li>The <a href="https://www.openehr.org/releases/BASE/latest/bmm.html">Basic-Meta Model (BMM)</a> alternative to XMI.</li>
-					<li>The <a href="https://www.openehr.org/releases/BASE/latest/odin.html">ODIN object data notation</a></li>
-					<li>The <a href="https://www.openehr.org/downloads/ADLworkbench/home">ADL Workbench</a></li>
+					<li>The <a href="https://www.openehr.org/releases/AM/latest/docs/index">Archetype Definition Language (ADL)</a>, now an ISO standard;</li>
+					<li>The <a href="https://www.openehr.org/releases/BASE/latest/bmm.html">Basic-Meta Model (BMM)</a> alternative to XMI, used in openEHR, HL7 CIMI;</li>
+					<li>The <a href="https://www.openehr.org/releases/BASE/latest/odin.html">ODIN object data notation</a>;</li>
+					<li>The <a href="https://www.openehr.org/downloads/ADLworkbench/home">ADL Workbench</a>.</li>
 				</ul>
-			</div>
 
-			<div class = "section">
 				<h3>Architect of (with many esteemed colleagues)</h3>
 				<ul>
-					<li>The <a href="https://www.openehr.org/releases/RM/latest/docs/index">openEHR Reference Model</a></li>
-					<li>Asciidoctor-based documentation toolchain used in openEHR specifications</li>
+					<li>The <a href="https://www.openehr.org/releases/RM/latest/docs/index">openEHR Reference Model</a>;</li>
+					<li>Asciidoctor-based documentation toolchain used in openEHR specifications.</li>
 				</ul>
-			</div>
 
-			<div class = "section">
 				<h3>Articles and publications</h3>
 				<ul>
-					<li><a href="https://wolandscat.net/2017/01/29/fhir-compared-to-openehr/">FHIR Compared to openEHR</a></li>
-					<li><a href="https://wolandscat.net/2017/01/23/initial-foundations-for-clinical-workflow/">Initial Foundations for Clinical Workflow</a></li>
-					<li><a href="http://wolandscat.net/2014/05/07/what-is-an-open-platform/">What is an open platform?</a></li>
-					<li><a href="http://wolandscat.net/2009/09/17/the-crisis-in-e-health-standards/">The crisis in e-health standards</a></li>
-					<li><a href="http://wolandscat.net/2009/09/17/the-crisis-in-e-health-standards/">The crisis in e-health standards</a></li>
-					<li><a href="https://wolandscat.net/publications/">Publications page</a></li>
+					<li><a href="https://wolandscat.net/2017/01/29/fhir-compared-to-openehr/">FHIR Compared to openEHR</a>;</li>
+					<li><a href="https://wolandscat.net/2017/01/23/initial-foundations-for-clinical-workflow/">Initial Foundations for Clinical Workflow</a>;</li>
+					<li><a href="http://wolandscat.net/2014/05/07/what-is-an-open-platform/">What is an open platform?</a>;</li>
+					<li><a href="http://wolandscat.net/2009/09/17/the-crisis-in-e-health-standards/">The crisis in e-health standards</a>;</li>
+					<li><a href="http://wolandscat.net/2009/09/17/the-crisis-in-e-health-standards/">The crisis in e-health standards</a>;</li>
+					<li><a href="https://wolandscat.net/publications/">Publications page</a>.</li>
 				</ul>
 			</div>
 
