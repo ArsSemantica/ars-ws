@@ -25,9 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<li>integrating clinical information and terminology;</li>
 					<li>safely using e-health standards.</li>
 				</ul>
-			</div>
 			
-			<div class = "section">
 				<h3><a name="ehealth_standards"></a>e-health Standards</h3>
 				<p>A recognised expert on e-health standards, Thomas Beale has worked on development of e-health standards, specifications within CEN TC 215, HL7, OMG HDTF, and the openEHR Foundation.</p>
 			</div>
@@ -38,16 +36,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 			
 			<div class = "section">
-				<h3><a name="specification_development"></a>Health IT Specifications Development</h3>
+				<h3><a name="specification_development"></a>e-Health Specifications Development</h3>
 				<p>Expertise can be provided on undertaking new specifications development, including on:</p>
 				<ul>
 					<li>development of formal languages and models for e-health information modelling and querying;</li>
 					<li>use of terminology;</li>
 					<li>defining specifications as a platform ecosystem.</li>
 				</ul>
-			</div>
 			
-			<div class = "section">
 				<h3><a name="architecture"></a>Semantic Architecture Development</h3>
 				<p>The 'semantic architecture' of a component or system is the key to its ability to represent what goes on in the real world. We design large-scale model / software architectures for solutions in healthcare and other domains, using:</p>
 				<ul>
@@ -56,9 +52,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 					<li>approaches to future-proofing;</li>
 					<li>appropriate use of archetyping and terminology.</li>
 				</ul>
-			</div>
 			
-			<div class = "section">
 				<h3><a name="ontology"></a>Using Biomedical Ontologies</h3>
 				<p>The use of formal ontologies such as BFO (Basic Formal Ontology), BioTopLite, RO (Relation Ontology), IAO (Information Artefact Ontology) and others is becoming essential in bio-informatics and health informatics, to enable reliable machine inferencing on data. Using ontologies requires:</p>
 				<ul>

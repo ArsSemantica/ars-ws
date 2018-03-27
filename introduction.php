@@ -67,10 +67,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 
 				<p>More on the platform paradigm:</p>
 				<ul>
-					<li>Blog post: <a href="https://wolandscat.net/2017/11/18/the-open-e-health-platform-coming-to-an-economy-near-you/" target="_blank">Apperta Foundation - defining an open platform.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2015/10/21/new-openehr-whitepaper-for-an-open-platform-future/" target="_blank">New openEHR Whitepaper – for an open platform future.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2014/10/02/health-interoperability-standards-are-a-pre-platform-concept-discuss/" target="_blank">Health interoperability standards are a pre-platform concept.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2014/05/07/what-is-an-open-platform/" target="_blank">What is an 'open platform'?</a></li>
+					<li><a href="https://wolandscat.net/2017/11/18/the-open-e-health-platform-coming-to-an-economy-near-you/" target="_blank">Apperta Foundation - defining an open platform.</a></li>
+					<li><a href="https://wolandscat.net/2015/10/21/new-openehr-whitepaper-for-an-open-platform-future/" target="_blank">New openEHR Whitepaper – for an open platform future.</a></li>
+					<li><a href="https://wolandscat.net/2014/10/02/health-interoperability-standards-are-a-pre-platform-concept-discuss/" target="_blank">Health interoperability standards are a pre-platform concept.</a></li>
+					<li><a href="https://wolandscat.net/2014/05/07/what-is-an-open-platform/" target="_blank">What is an 'open platform'?</a></li>
 				</ul>
 
 			</div>
@@ -96,13 +96,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			
 				<p>More on semantic architecture:</p>
 				<ul>
-					<li>Blog post: <a href="https://wolandscat.net/2015/11/29/why-it-people-cant-build-information-systems/" target="_blank">Why IT people can't build information systems (on their own).</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2016/04/10/openehr-technical-basics-for-hl7-and-fhir-users/" target="_blank">openEHR technical basics for HL7 and FHIR users.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2014/12/15/semantic-scalability-the-core-challenge-in-e-health/" target="_blank">Semantic scalability – the core challenge in e-health?</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2014/03/11/why-clinical-models-are-essential-to-big-data/" target="_blank">Why clinical models are essential to big data.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2013/07/30/what-is-a-clinical-statement/" target="_blank">What is a 'clinical statement'?</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2012/06/28/openehr-archetypes-visualised/" target="_blank">The power of the openEHR archetype formalism – visualised.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2011/07/07/information-models-dcms-and-archetypes/" target="_blank">Information models, DCMs and Archetypes.</a></li>
+					<li><a href="https://wolandscat.net/2015/11/29/why-it-people-cant-build-information-systems/" target="_blank">Why IT people can't build information systems (on their own).</a></li>
+					<li><a href="https://wolandscat.net/2016/04/10/openehr-technical-basics-for-hl7-and-fhir-users/" target="_blank">openEHR technical basics for HL7 and FHIR users.</a></li>
+					<li><a href="https://wolandscat.net/2014/12/15/semantic-scalability-the-core-challenge-in-e-health/" target="_blank">Semantic scalability – the core challenge in e-health?</a></li>
+					<li><a href="https://wolandscat.net/2014/03/11/why-clinical-models-are-essential-to-big-data/" target="_blank">Why clinical models are essential to big data.</a></li>
+					<li><a href="https://wolandscat.net/2013/07/30/what-is-a-clinical-statement/" target="_blank">What is a 'clinical statement'?</a></li>
+					<li><a href="https://wolandscat.net/2012/06/28/openehr-archetypes-visualised/" target="_blank">The power of the openEHR archetype formalism – visualised.</a></li>
+					<li><a href="https://wolandscat.net/2011/07/07/information-models-dcms-and-archetypes/" target="_blank">Information models, DCMs and Archetypes.</a></li>
 				</ul>
 			</div>
 
@@ -118,9 +118,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 
 				<p>More on the process orientation:</p>
 				<ul>
-					<li>Blog post: <a href="https://wolandscat.net/2017/10/22/openehr-task-planning-heading-for-implementatoin/" target="_blank">openEHR Task Planning – heading for implementation.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2017/01/23/initial-foundations-for-clinical-workflow/" target="_blank">Initial foundations for clinical workflow.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2016/11/29/future-of-the-ehr-adaptive-clinical-workflow-support/" target="_blank">Future of the EHR: adaptive clinical workflow support.</a></li>
+					<li><a href="https://wolandscat.net/2017/10/22/openehr-task-planning-heading-for-implementatoin/" target="_blank">openEHR Task Planning – heading for implementation.</a></li>
+					<li><a href="https://wolandscat.net/2017/01/23/initial-foundations-for-clinical-workflow/" target="_blank">Initial foundations for clinical workflow.</a></li>
+					<li><a href="https://wolandscat.net/2016/11/29/future-of-the-ehr-adaptive-clinical-workflow-support/" target="_blank">Future of the EHR: adaptive clinical workflow support.</a></li>
 				</ul>
 			</div>
 
@@ -137,17 +137,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 
 				<p>More on standards in e-Health:</p>
 				<ul>
-					<li>Blog post: <a href="https://wolandscat.net/2017/01/29/fhir-compared-to-openehr/" target="_blank">FHIR compared to openEHR.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2016/04/05/e-health-standards-beyond-messages/" target="_blank">e-Health standards – beyond the message mentality.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2015/12/20/making-fhir-work-for-everybody/" target="_blank">Making FHIR work for everybody.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2015/09/25/yet-another-e-health-standards-comparison-corrected/" target="_blank">Yet another e-health standards comparison, corrected.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2014/10/30/does-anyone-actually-understand-what-terminology-is-for/" target="_blank">Does anyone actually understand what terminology is for?</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2014/10/25/what-is-a-standard-legislation-or-utilisation/" target="_blank">What is a ‘standard’: legislation or utilisation?</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2014/08/19/beyond-the-hype-evaluating-e-health-standards/" target="_blank">Beyond the hype: evaluating e-health standards.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2014/08/12/onc-hearing-on-the-jason-report/" target="_blank">ONC Hearing on the JASON Report – openEHR perspective.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2013/07/06/what-is-a-standard/" target="_blank">What is a standard?.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2010/12/19/design-in-ehealth/" target="_blank">Ruminations on ‘design’ in e-health standards.</a></li>
-					<li>Blog post: <a href="https://wolandscat.net/2009/09/17/the-crisis-in-e-health-standards/" target="_blank">The crisis in e-health standards (4 posts).</a></li>
+					<li><a href="https://wolandscat.net/2017/01/29/fhir-compared-to-openehr/" target="_blank">FHIR compared to openEHR.</a></li>
+					<li><a href="https://wolandscat.net/2016/04/05/e-health-standards-beyond-messages/" target="_blank">e-Health standards – beyond the message mentality.</a></li>
+					<li><a href="https://wolandscat.net/2015/12/20/making-fhir-work-for-everybody/" target="_blank">Making FHIR work for everybody.</a></li>
+					<li><a href="https://wolandscat.net/2015/09/25/yet-another-e-health-standards-comparison-corrected/" target="_blank">Yet another e-health standards comparison, corrected.</a></li>
+					<li><a href="https://wolandscat.net/2014/10/30/does-anyone-actually-understand-what-terminology-is-for/" target="_blank">Does anyone actually understand what terminology is for?</a></li>
+					<li><a href="https://wolandscat.net/2014/10/25/what-is-a-standard-legislation-or-utilisation/" target="_blank">What is a ‘standard’: legislation or utilisation?</a></li>
+					<li><a href="https://wolandscat.net/2014/08/19/beyond-the-hype-evaluating-e-health-standards/" target="_blank">Beyond the hype: evaluating e-health standards.</a></li>
+					<li><a href="https://wolandscat.net/2014/08/12/onc-hearing-on-the-jason-report/" target="_blank">ONC Hearing on the JASON Report – openEHR perspective.</a></li>
+					<li><a href="https://wolandscat.net/2013/07/06/what-is-a-standard/" target="_blank">What is a standard?.</a></li>
+					<li><a href="https://wolandscat.net/2010/12/19/design-in-ehealth/" target="_blank">Ruminations on ‘design’ in e-health standards.</a></li>
+					<li><a href="https://wolandscat.net/2009/09/17/the-crisis-in-e-health-standards/" target="_blank">The crisis in e-health standards (4 posts).</a></li>
 				</ul>
 			</div>
 
