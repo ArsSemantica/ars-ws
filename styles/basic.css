@@ -69,7 +69,7 @@ h4 {
 
 ul {
 	padding-left: 20px;
-	margin: 0 0 0.8em 0;
+	margin: 0 0 0.8em 20px;
 
 	list-style: disc;
 	list-style-position: outside;
@@ -78,7 +78,7 @@ ul {
 
 ul ul{
 	padding-left: 20px;
-	margin: 0 0 0.8em 0;
+	margin: 0 0 0.8em 20px;
 
 	list-style: circle;
 	list-style-position: outside;
@@ -190,19 +190,19 @@ body {
 .top-right {
     position: absolute;
     top: 5%;
-    left: 75%;
+    left: 95%;
 }
 
 .mid-right {
     position: absolute;
     top: 40%;
-    left: 75%;
+    left: 95%;
 }
 
 .bottom-right {
     position: absolute;
     top: 75%;
-    left: 75%;
+    left: 95%;
 }
 
 /* Content */
@@ -255,14 +255,77 @@ body {
 }
 
 .copyright {
-	text-align: center;
+	float: left;
+	text-align: left;
+    width: 35%;
 }
 
 .copyright p {
 	margin: 0;
+	font: 11px/12px Verdana, Geneva, sans-serif;
 }
 
+.social {
+    float: right;
+    width: 25%;
+    text-align: right;
+}
+
+/* Tables style */
+.TableBasic {
+	border: 1px solid #ccc;
+
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+.TableBasic th {
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #ccc;
+
+	background: #d2e9f4;
+	color: #023760;
+
+	font-weight:900;
+	font-size: 13px;
+}
+
+.TableBasic td {
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #ccc;
+
+	text-align: left;
+	font-size: 13px;
+}
+
+
+.TableInvisible {
+	border: none;
+}
+
+.TableInvisible th {
+	padding: 3px 5px 3px 5px;
+	border: none;
+
+	background-color: #ebf0f0;
+	color: #023760;
+
+	font-weight: 900;
+}
+
+.TableInvisible td {
+	padding: 3px 5px 3px 5px;
+	border: none;
+
+	text-align: justify;
+	vertical-align: top;
+}
+
+
 /*Fluid layout*/
+/* 
+ * =================== Small screens: < 767 wide ============= 
+ */
 @media (max-width:767px) {
 
 	.headerContainer {
@@ -304,8 +367,7 @@ body {
 	
 	.contentContainer {
 		min-width: 500px;
-		max-width: 650px;
-		padding: 150px 15px 70px 15px;
+		padding: 230px 15px 70px 15px;
 	}
 	
 	.titleImage {
@@ -319,48 +381,49 @@ body {
 	}
 	
 	.titleContainer {
-		min-width: 500px;
-		max-width: 650px;
-		padding: 150px 15px 70px 15px;
+		min-width: 550px;
+		padding: 230px 15px 70px 15px;
 	}
 	
 	.title-text-container {
-		top: 60px;
+		top: 40px;
 		left: 30px;
 	}
 	
 	.titleTopImage {
-		height:500px;
-		width: 100%;
+		height: 100%;
+		width: 550px;
 	}
 	
 	.title {
-		font: 22px/26px Verdana, Geneva, sans-serif;
+		font: 20px/24px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 48%;
+		width: 40%;
 	}
 	
 	.title-link {
 		margin: 20px 0 10px;
-		font: 20px/20px Verdana, Geneva, sans-serif;
-	
+		font: 18px/20px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 	}
 	
 	.top-right {
-		left: 80%;
+        left: 65%;
 	}
 
 	.mid-right {
-		left: 80%;
+        left: 65%;
 	}
 
 	.bottom-right {
-		left: 80%;
+        left: 65%;
 	}
 	
 }
 
+/* 
+ * =================== Mid-small screens: 768w and higher ============= 
+ */
 @media (min-width:768px){
 
 	.headerContainer {
@@ -419,40 +482,43 @@ body {
 	}
 	
 	.title-text-container {
-		top: 60px;
+		top: 50px;
 		left: 30px;
 	}
 	
 	.titleTopImage {
-		height:500px;
-		width: 700px;
+		height: 100%;
+		width: 740px;
 	}
 	
 	.title {
-		font: 24px/28px Verdana, Geneva, sans-serif;
+		font: 22px/24px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 42%;
+		width: 40%;
 	}
 	
 	.title-link {
 		margin: 20px 0 10px;
-		font: 22px/22px Verdana, Geneva, sans-serif;
-	
+		font: 18px/18px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 	}
 	
 	.top-right {
-		left: 85%;
+        left: 70%;
 	}
 
 	.mid-right {
-		left: 85%;
+        left: 70%;
 	}
 
 	.bottom-right {
-		left: 85%;
+        left: 70%;
 	}
 }
+
+/* 
+ * =================== Medium screens: 992w and higher ============= 
+ */
 
 @media (min-width:992px){
 	.headerContainer {
@@ -460,7 +526,7 @@ body {
 		padding: 0 15px;
 	}
 	.menuContainer {
-		width:85%;
+		width:90%;
 	}
 	.logo {
 		width: 16.6667%;
@@ -525,24 +591,27 @@ body {
 	}
 	
 	.titleTopImage {
-		height:500px;
-		width: 700px;
+		height: 100%;
+		width: 850px;
 	}
 	
 	.title {
-		font: 24px/28px Verdana, Geneva, sans-serif;
+		font: 22px/24px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 38%;
+		width: 45%;
 	}
 	
 	.title-link {
 		margin: 20px 0 10px;
-		font: 22px/22px Verdana, Geneva, sans-serif;
-	
+		font: 18px/20px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 	}
 		
 }
+
+/* 
+ * =================== Large screens: 1200w and higher ============= 
+ */
 
 @media (min-width:1200px) {
 	.headerContainer {
@@ -550,7 +619,7 @@ body {
 		padding: 0;
 	}
 	.menuContainer {
-		width:85%;
+		width:90%;
 	}
 	.logo{
 		width: 16.6667%;
@@ -614,20 +683,19 @@ body {
 	}
 	
 	.titleTopImage {
-		height:500px;
-		width: 700px;
+		height: 100%;
+		width: 1000px;
 	}
 	
 	.title {
-		font: 26px/30px Verdana, Geneva, sans-serif;
+		font: 24px/26px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 38%;
+		width: 50%;
 	}
 	
 	.title-link {
 		margin: 20px 0 10px;
-		font: 24px/24px Verdana, Geneva, sans-serif;
-	
+		font: 20px/20px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 	}
 	

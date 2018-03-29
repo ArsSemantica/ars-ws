@@ -10,11 +10,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 		<div class = "contentContainer">
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content starts here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
+			<img src="/images/tb_2018.png" style = "width: 100%;">
+
 			<div class = "section">
-				<h2><a name="thomas_beale"></a>Thomas Beale (principal)</h2>
-				<img class = "mainImage" src="images/tb_campos.jpg">
+				<h1><a name="thomas_beale"></a>Thomas Beale (principal)</h1>
 			
-				<h3>Experience</h3>
+				<h2>Experience</h2>
 				<p>20 years' experience in EHR technology and standards, information modelling, semantic interoperability, e-health strategy and open health computing platforms.</p>
 
 				<h3>Creator of</h3>
@@ -43,7 +44,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 
 			<div class = "section">
-				<h3>History</h3>
+				<h2>History</h2>
 				<p>Knowledge-based standards development, software engineering, education, business development, industry analysis and thought leadership since 1986, including in real time control, finance, and e-health. Lead of openEHR.org Specification Program.</p>
 				
 				<p>Thomas's early experience was in CMM level 4 engineering of real-time control systems. He also worked in some of the largest financial enterprises in Australia, in both a strategic advisory capacity and on project implementation. He has worked in e-health since 1994, when he was the technical advisor for the Good European Health Record (GEHR) project.</p> 

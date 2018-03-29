@@ -43,7 +43,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 
 			<div class = "section">
 				<h2><a name="platform_paradigm"></a>The open Platform as a Paradigm</h2>
-				<p>Existing major products in healthcare are monolithic private data siloes, blocking users from working effectively. The future is solution components produced by an eco-system of plug-and-play vendors. By freeing data to move across enterprises, we free the business.</p>
+				<p>Existing major products in healthcare are monolithic private data siloes, often blocking users from working effectively with patient-centric data. The future is solution components obeying openly published specifications, produced by an eco-system of plug-and-play vendors. By freeing data to move <i>through</i> enterprises and products, we free the business.</p>
 				<img class = "mainImage" src="images/home_page_platform.svg">
 
 				<p>An open health computing platform, based on open, integrated specifications for <em>incrementally deployable components</em> is the key to getting value from IT in healthcare.</p>
@@ -63,7 +63,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
                     <li>a <em>map of the components</em> of the platform, since these are the unit of specification.</li>
                 </ul>
                 
-                <p>A well-designed platform must be specified and maintained by the industry it serves. If it does this well, the result will be a <em>platform economy of plug-and-play vendors</em> competing on quality rather than lock-in.</p>
+                <p>A good platform must be specified and maintained by the industry it serves. If it does this well, the result will be a <em>platform economy of plug-and-play vendors</em> competing on quality rather than lock-in.</p>
 
 				<p>More on the platform paradigm:</p>
 				<ul>
@@ -80,15 +80,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 				<img class = "mainImage" src="images/home_page_semarch.svg">
 				<p>An open platform defines coarse-grained components whose semantics need to be defined in such a way that:</p>
                 <ul>
-                    <li>fully model domain concepts as well as work environment processes;</li>
-                    <li>separate domain modelling from IT development, and make domain models runtime-deployable;</li>
+                    <li>fully model domain information as well as work environment processes;</li>
+                    <li>separate domain modelling from IT development, and make domain <em>models runtime-deployable</em>;</li>
                     <li><em>single-source modelling</em>: ensure domain models are defined independently of technology, including OS, DB, message and document formats, but can be machine converted to the required forms.</li>
                 </ul>
 
-				<p>Achieving these outcomes requires an advanced approach to modelling:</p>
+				<p>Achieving these outcomes requires an advanced approach to models used in the components:</p>
                 <ul>
                     <li><em>domain-level formal languages and tools</em> in which information and work processes can be flexibly modelled;</li>
-                    <li>a repository+factory approach to managing domain modelling by domain professionals;</li>
+                    <li>a <em>continuous delivery factory</em> approach to managing domain modelling by domain professionals;</li>
                     <li><em>multi-level modelling</em>, with distinct layers for persistable data, domain data groups, domain data-sets, domain process plans, UI/UX precursors;</li>
                     <li>underpinning of semantics with <em>ontologies</em>, including BFO, RO, IAO and others;</li>
                     <li>each platform component should be architected as a <em>model-execution engine</em>.</li>
@@ -127,9 +127,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<div class = "section">
 				<h2><a name="taming_standards"></a>Taming e-Health Standards</h2>
 				<img class = "mainImage" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Gartner_Hype_Cycle.svg">
-				<p>Standards in e-Health have had a chequered history, with extremely limited success beyond HL7v2 messages historically (and still) used for lab results and prescriptions. Twenty years involvement has led us to certain conclusions:</p>
+				<p>Standards in e-Health have had a chequered history, with limited success beyond HL7v2 messages historically (and still) used for lab results and prescriptions. Twenty years involvement has led us to certain conclusions:</p>
 				<ul>
-					<li>ad hoc collections of standards do not work together - significant costs are involved, and integration may not be achievable;</li>
+					<li>ad hoc collections of standards do not work together - significant costs are involved, and integration may not be economically achievable;</li>
 					<li>standards designed by committees are of poor quality and should be avoided;</li>
 					<li>the only way to create standards that work together is to design them together, as a platform;</li>
 					<li>avoid standards that are not published with formal expressions and an open source implementation.</li>
