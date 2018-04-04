@@ -77,7 +77,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
                     <td>
                         <p>The 'Semantic architecture' of a component or system is the key to its ability to represent what goes on in the real world. We design large-scale model / software architectures for solutions in healthcare and other domains, using:</p>
                         <ul>
-                            <li>ontology-based approach, including choice up upper and domain-level ontologies;</li>
+                            <li>ontology-based approach, including choice of upper and domain-level ontologies;</li>
                             <li>separation of layers;</li>
                             <li>approaches to future-proofing;</li>
                             <li>appropriate use of archetyping and terminology.</li>

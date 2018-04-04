@@ -13,7 +13,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			<img src="/images/platform_pontoon.png" style = "width: 100%;">
 
 			<div class = "section">
-				<h2><a name="ehealth_challenge"></a>The Challenge of e-Health for IT</h2>
+				<h2 id="ehealth_challenge">The Challenge of e-Health for IT</h2>
 				<p>Developing effective and economic IT solutions for e-health has proven very difficult over some decades, although the general needs are easy to grasp:</p>
                 <ul>
                     <li>semantic interoperability <em>within and across enterprises</em>;</li>
@@ -42,7 +42,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 
 			<div class = "section">
-				<h2><a name="platform_paradigm"></a>The open Platform as a Paradigm</h2>
+				<h2 id="platform_paradigm">The open Platform as a Paradigm</h2>
 				<p>Existing major products in healthcare are monolithic private data siloes, often blocking users from working effectively with patient-centric data. The future is solution components obeying openly published specifications, produced by an eco-system of plug-and-play vendors. By freeing data to move <i>through</i> enterprises and products, we free the business.</p>
 				<img class = "mainImage" src="images/home_page_platform.svg">
 
@@ -62,8 +62,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
                     <li><em>semantic model architecture</em>: formalisms and knowledge models of the problem space; information and process models for the work context;</li>
                     <li>a <em>map of the components</em> of the platform, since these are the unit of specification.</li>
                 </ul>
-                
-                <p>A good platform must be specified and maintained by the industry it serves. If it does this well, the result will be a <em>platform economy of plug-and-play vendors</em> competing on quality rather than lock-in.</p>
+			</div>
+
+			<div class = "section">
+				<h2 id="platform_economy">The open Platform Economy</h2>
+                <p>A good platform must be specified and maintained by the industry it serves. If it does this well, the result will be a <em>platform economy of plug-and-play vendors</em> competing on quality rather than lock-in. This will of course take time, and will be different to the current health IT environment in one crucial aspect: the interfaces, information models and knowledge definitions that define the platform components are known to the customer organisation, and used as <em>requirements</em> to which vendors must comply. This puts the customer and user community in the driving seat operationally and financially.</p>
+
+				<img src="/images/apperta-platform-arch.png">
 
 				<p>More on the platform paradigm:</p>
 				<ul>
@@ -76,7 +81,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 						
 			<div class = "section">
-				<h2>Semantic Architecture</h2>
+				<h2 id="semantic_framework">Semantic Architecture</h2>
 				<img class = "mainImage" src="images/home_page_semarch.svg">
 				<p>An open platform defines coarse-grained components whose semantics need to be defined in such a way that:</p>
                 <ul>
@@ -107,7 +112,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 
 			<div class = "section">
-				<h2><a name="process_orientation"></a>Process Orientation</h2>
+				<h2 id="process_orientation">Process Orientation</h2>
 				<img class = "mainImage" src="images/home_page_process.svg">
 				<p>In healthcare working environments, work is done in terms of <em>goal-oriented processes</em>, designed to respond to an endless stream of real-world events, from customer requests to changes in a patient's heart rate. To make IT support processes in health, we need to formalise two things:</p>
                 <ul>
@@ -125,7 +130,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 			</div>
 
 			<div class = "section">
-				<h2><a name="taming_standards"></a>Taming e-Health Standards</h2>
+				<h2 id="taming_standards">Taming e-Health Standards</h2>
 				<img class = "mainImage" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Gartner_Hype_Cycle.svg">
 				<p>Standards in e-Health have had a chequered history, with limited success beyond HL7v2 messages historically (and still) used for lab results and prescriptions. Twenty years involvement has led us to certain conclusions:</p>
 				<ul>
@@ -153,6 +158,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/templates/_header_top.php');
 
 			<div class = "section">
 				<p style = "font-size: x-small;">Top image © 2014 <a href="https://imogenbrandrakers.wordpress.com/">Imogen Brand Rakers Photography</a></p>
+				<p style = "font-size: x-small;">Platform economy image © 2017 <a href="https://apperta.org/">Apperta Foundation</a></p>
 			</div>
 <!-- - - - - - - - - - - - - - - - - - - - - - - Content ends here - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		</div>

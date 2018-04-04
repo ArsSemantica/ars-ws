@@ -44,11 +44,20 @@ h1 {
 }
 
 h2 {
-	margin: 15px 0 8px;
+	margin-bottom: 8px;
 	font: 24px/24px Verdana, Geneva, sans-serif;
 	text-align: left;
 	
 	color: #1d275d;
+}
+
+/* hack to make jumps to headers display the header */
+h2:before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;    
 }
 
 h3 {
@@ -103,7 +112,7 @@ body {
 	z-index: 100;
 
 	width: 100%;
-	min-width: 350px;
+	min-width: 550px;
 	padding: 10px 0;
 	/*border-bottom: 3px solid #252f52;*/
 	
@@ -187,28 +196,10 @@ body {
     position: absolute;
 }
 
-.top-right {
-    position: absolute;
-    top: 5%;
-    left: 95%;
-}
-
-.mid-right {
-    position: absolute;
-    top: 40%;
-    left: 95%;
-}
-
-.bottom-right {
-    position: absolute;
-    top: 75%;
-    left: 95%;
-}
-
 /* Content */
 #Content {
     width: 100%;
-	min-width: 500px;
+	min-width: 550px;
 	min-height: 500px;
 	
 	background: #ffffff none repeat scroll 0px 0px;
@@ -221,6 +212,43 @@ body {
 .titleTopImage {
 	float: left; 
 	margin: 5px 30px 10px 0;
+}
+
+.frontButtonA {
+	position: absolute;
+	color: #AA0078;
+	background:  #f9dff2;
+	border: 1px solid #AA0078;
+	border-radius: 10px;
+}
+
+.frontButtonA:hover {
+	color: #f9dff2;
+	background:  #AA0078;
+}
+
+.frontButtonB {
+	position: absolute;
+	color: #072cbf;
+	background:  #d0eaf2;
+	border: 1px solid #072cbf;
+	border-radius: 10px;
+}
+
+.frontButtonB:hover {
+	color: #d0eaf2;
+	background:  #072cbf;
+}
+
+.frontButtonC {
+	position: absolute;
+	color: #AA0078;
+	background:  #ffffff;
+	border: 0px;
+}
+
+.frontButtonC:hover {
+	color: #072cbf;
 }
 
 .section {
@@ -247,7 +275,7 @@ body {
 	position: relative;
 	display: block;
 	width: 100%;
-	min-width: 350px;
+	min-width: 550px;
 	padding: 10px 0px 30px;
 	
 	background: #252f52 none repeat scroll 0% 0%;
@@ -328,8 +356,14 @@ body {
  */
 @media (max-width:767px) {
 
+    /* hack to make jumps to headers display the header */
+    h2:before {
+        margin-top: -180px;
+        height:180px;
+    }
+
 	.headerContainer {
-		min-width: 500px;
+		min-width: 550px;
 		padding: 0 15px;
 	}
 
@@ -366,7 +400,7 @@ body {
 	}
 	
 	.contentContainer {
-		min-width: 500px;
+		min-width: 550px;
 		padding: 230px 15px 70px 15px;
 	}
 	
@@ -376,7 +410,7 @@ body {
 	}
 	
 	.footerContainer {
-		min-width: 500px;
+		min-width: 550px;
 		padding: 25px 15px 0;
 	}
 	
@@ -391,14 +425,21 @@ body {
 	}
 	
 	.titleTopImage {
-		height: 100%;
-		width: 550px;
+		display:none;
+	}
+	
+	.titleTopImageSmall {
+		float: left;
+		width: 480px;
 	}
 	
 	.title {
-		font: 18px/20px Verdana, Geneva, sans-serif;
+		font: 20px/22px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 		width: 35%;
+		min-width: 200px;
+        text-align:left;
+        background: rgba(255, 255, 255, 0.6);
 	}
 	
 	.title-link {
@@ -406,17 +447,48 @@ body {
 		font: 16px/18px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 	}
+		
+	.frontButtonA { 
+		font: 14px/16px Verdana, Geneva, sans-serif;
+	}
 	
-	.top-right {
-        left: 65%;
+	.frontButtonB { 
+		font: 14px/16px Verdana, Geneva, sans-serif;
 	}
-
-	.mid-right {
-        left: 65%;
+	
+	#EhealthChallenge {
+		width: 108px;
+		height: 55px;
+		top: 10px;
+		left: 75%;
 	}
-
-	.bottom-right {
-        left: 65%;
+	
+	#SemanticFramework {
+		width: 108px;
+		height: 55px;
+		top: 110px;
+		left: 75%;
+	}
+	
+	#ClinicalProcess {
+		width: 108px;
+		height: 55px;
+		top: 210px;
+		left: 75%;
+	}
+	
+	#TamingStandards {
+		width: 108px;
+		height: 55px;
+		top: 310px;
+		left: 75%;
+	}
+	
+	#PlatformDefinition {
+		width: 108px;
+		height: 55px;
+		top: 410px;
+		left: 75%;
 	}
 	
 }
@@ -425,6 +497,12 @@ body {
  * =================== Mid-small screens: 768w and higher ============= 
  */
 @media (min-width:768px){
+
+    /* hack to make jumps to headers display the header */
+    h2:before {
+        margin-top: -180px;
+        height:180px;
+    }
 
 	.headerContainer {
 		width: 750px;
@@ -491,11 +569,17 @@ body {
 		width: 740px;
 	}
 	
+	.titleTopImageSmall {
+		display: none;
+	}
+	
 	.title {
 		font: 20px/22px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 		width: 35%;
-	}
+        text-align:left;
+        background: rgba(255, 255, 255, 0.6);
+    }
 	
 	.title-link {
 		margin: 20px 0 10px;
@@ -503,17 +587,60 @@ body {
 		color: #1d275d;
 	}
 	
-	.top-right {
-        left: 70%;
+	.frontButtonA { 
+		font: 9px/12px Verdana, Geneva, sans-serif;
+	}
+	
+	.frontButtonB { 
+		font: 9px/12px Verdana, Geneva, sans-serif;
+	}
+	
+	.frontButtonC { 
+		font: 9px/12px Verdana, Geneva, sans-serif;
+	}
+	
+	#EhealthChallenge {
+		width: 64px;
+		height: 40px;
+		top: 51px;
+		left: 552px;
+	}
+	
+	#SemanticFramework {
+		width: 73px;
+		height: 42px;
+		top: 112px;
+		left: 462px;
+	}
+	
+	#ClinicalProcess {
+		width: 67px;
+		height: 50px;
+		top: 173px;
+		left: 598px;
+	}
+	
+	#TamingStandards {
+		width: 67px;
+		height: 45px;
+		top: 237px;
+		left: 666px;
+	}
+	
+	#PlatformDefinition {
+		width: 68px;
+		height: 40px;
+		top: 322px;
+		left: 500px;
 	}
 
-	.mid-right {
-        left: 70%;
-	}
-
-	.bottom-right {
-        left: 70%;
-	}
+	#PlatformEconomy {
+		width: 62px;
+		height: 50px;
+		top: 368px;
+		left: 620px;
+	}    
+    
 }
 
 /* 
@@ -595,10 +722,16 @@ body {
 		width: 850px;
 	}
 	
+	.titleTopImageSmall {
+		display: none;
+	}
+	
 	.title {
 		font: 22px/24px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 40%;
+		width: 35%;
+        text-align:left;
+        background: rgba(255, 255, 255, 0.6);
 	}
 	
 	.title-link {
@@ -606,7 +739,61 @@ body {
 		font: 18px/20px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 	}
-		
+	
+	.frontButtonA { 
+		font: 12px/13px Verdana, Geneva, sans-serif;
+	}
+	
+	.frontButtonB { 
+		font: 12px/13px Verdana, Geneva, sans-serif;
+	}
+	
+	.frontButtonC { 
+		font: 12px/13px Verdana, Geneva, sans-serif;
+	}
+	
+	#EhealthChallenge {
+		width: 72px;
+		height: 50px;
+		top: 58px;
+		left: 635px;
+	}
+	
+	#SemanticFramework {
+		width: 82px;
+		height: 50px;
+		top: 125px;
+		left: 529px;
+	}
+	
+	#ClinicalProcess {
+		width: 80px;
+		height: 62px;
+		top: 197px;
+		left: 683px;
+	}
+	
+	#TamingStandards {
+		width: 83px;
+		height: 54px;
+		top: 270px;
+		left: 762px;
+	}
+	
+	#PlatformDefinition {
+		width: 75px;
+		height: 44px;
+		top: 369px;
+		left: 575px;
+	}
+
+	#PlatformEconomy {
+		width: 82px;
+		height: 62px;
+		top: 419px;
+		left: 712px;
+	}    
+    
 }
 
 /* 
@@ -614,6 +801,7 @@ body {
  */
 
 @media (min-width:1200px) {
+
 	.headerContainer {
 		width: 1170px;
 		padding: 0;
@@ -687,10 +875,17 @@ body {
 		width: 1000px;
 	}
 	
+	.titleTopImageSmall {
+		display: none;
+	}
+	
 	.title {
 		font: 24px/26px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 45%;
+		width: 40%;
+        text-align:justify;
+        text-justify: inter-word;
+        background: rgba(255, 255, 255, 0.6);
 	}
 	
 	.title-link {
@@ -699,4 +894,57 @@ body {
 		color: #1d275d;
 	}
 	
+	.frontButtonA { 
+		font: 14px/16px Verdana, Geneva, sans-serif;
+	}
+	
+	.frontButtonB { 
+		font: 14px/16px Verdana, Geneva, sans-serif;
+	}
+	
+	.frontButtonC { 
+		font: 14px/16px Verdana, Geneva, sans-serif;
+	}
+	
+	#EhealthChallenge {
+		width: 85px;
+		height: 54px;
+		top: 67px;
+		left: 747px;
+	}
+	
+	#SemanticFramework {
+		width: 95px;
+		height: 55px;
+		top: 148px;
+		left: 623px;
+	}
+	
+	#ClinicalProcess {
+		width: 90px;
+		height: 62px;
+		top: 232px;
+		left: 808px;
+	}
+	
+	#TamingStandards {
+		width: 86px;
+		height: 61px;
+		top: 318px;
+		left: 899px;
+	}
+	
+	#PlatformDefinition {
+		width: 88px;
+		height: 54px;
+		top: 431px;
+		left: 676px;
+	}
+	
+	#PlatformEconomy {
+		width: 90px;
+		height: 62px;
+		top: 497px;
+		left: 837px;
+	}
 }
