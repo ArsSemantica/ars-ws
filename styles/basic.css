@@ -396,14 +396,14 @@ body {
 	}
 	
 	.title {
-		font: 20px/24px Verdana, Geneva, sans-serif;
+		font: 18px/20px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 40%;
+		width: 35%;
 	}
 	
 	.title-link {
 		margin: 20px 0 10px;
-		font: 18px/20px Verdana, Geneva, sans-serif;
+		font: 16px/18px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 	}
 	
@@ -482,7 +482,7 @@ body {
 	}
 	
 	.title-text-container {
-		top: 50px;
+		top: 40px;
 		left: 30px;
 	}
 	
@@ -492,14 +492,14 @@ body {
 	}
 	
 	.title {
-		font: 22px/24px Verdana, Geneva, sans-serif;
+		font: 20px/22px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 40%;
+		width: 35%;
 	}
 	
 	.title-link {
 		margin: 20px 0 10px;
-		font: 18px/18px Verdana, Geneva, sans-serif;
+		font: 18px/20px Verdana, Geneva, sans-serif;
 		color: #1d275d;
 	}
 	
@@ -586,7 +586,7 @@ body {
 	}
 	
 	.title-text-container {
-		top: 60px;
+		top: 40px;
 		left: 30px;
 	}
 	
@@ -598,7 +598,7 @@ body {
 	.title {
 		font: 22px/24px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 45%;
+		width: 40%;
 	}
 	
 	.title-link {
@@ -678,7 +678,7 @@ body {
 	}
 	
 	.title-text-container {
-		top: 60px;
+		top: 40px;
 		left: 30px;
 	}
 	
@@ -690,7 +690,7 @@ body {
 	.title {
 		font: 24px/26px Verdana, Geneva, sans-serif;
 		color: #1d275d;
-		width: 50%;
+		width: 45%;
 	}
 	
 	.title-link {
